@@ -3,10 +3,8 @@
 <img src="/assets/images/asucla_student_u.png" width="300px" height="79px" alt="ASUCLA Student Union Logo">
 
 
-Built with :blue_heart::yellow_heart: by [Shawn Schwartz](https://shawntylerschwartz.com), UCLA Bruin :bear: 
+Built with :blue_heart::yellow_heart: by [Shawn Schwartz](https://shawntylerschwartz.com), UCLA Bruin :bear: | *Class of 2019*
 
-*Class of 2019*
-<br />
 *[ASUCLA](https://asucla.ucla.edu) Marketing Lead Student Web Developer*
 
 ## Description
