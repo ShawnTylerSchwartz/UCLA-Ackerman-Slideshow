@@ -1,8 +1,10 @@
 # UCLA Ackerman Union Slideshow
 
-![ASUCLA Student Union Logo](/assets/images/asucla_student_u.png){:height="300px" width="79px"}
+![ASUCLA Student Union Logo](/assets/images/asucla_student_u.png =300x79)
 
-Built with :blue_heart: :yellow_heart: by Shawn Schwartz, UCLA Bruin :bear: *Class of 2019*
+Built with :blue_heart::yellow_heart: by [Shawn Schwartz](https://shawntylerschwartz.com), UCLA Bruin :bear: 
+
+*Class of 2019*
 *[ASUCLA](https://asucla.ucla.edu) Marketing Lead Student Web Developer*
 
 ## Description
@@ -24,6 +26,7 @@ Although simple in theory, my main challenge was building this script to be both
 
 ```javascript
 // parameters.js
+
 	// *********************
 		// >>>> EDIT THESE PARAMETERS HERE:
 		var duration = 15000; // time in ms (i.e., 1000ms = 1s)
@@ -43,6 +46,11 @@ Then, once the parameters are set, "ackerman.js" will pre-load all of the slides
 	}
 ```
 
-> Overall, this was a fun, quick project and will be used to display historical aspects of UCLA's history throughout the past century.
+<br />
+
+Overall, this was a fun, quick project and will be used to display historical aspects of UCLA's history throughout the past century.
+
+
+<br />
 
 *© 2018 Regents of the University of California. UCLA®, UCLA Bruins®, University of California Los Angeles® and all related trademarks are the property of the Regents of the University of California.*
