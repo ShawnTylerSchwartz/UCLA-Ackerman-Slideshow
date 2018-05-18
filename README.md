@@ -6,7 +6,7 @@
 Built with :blue_heart::yellow_heart: by [Shawn Schwartz](https://shawntylerschwartz.com), UCLA Bruin :bear: 
 
 *Class of 2019*
-
+<br />
 *[ASUCLA](https://asucla.ucla.edu) Marketing Lead Student Web Developer*
 
 ## Description
