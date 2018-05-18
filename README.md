@@ -1,6 +1,6 @@
 # UCLA Ackerman Union Slideshow
 
-![ASUCLA Student Union Logo](/assets/images/asucla_student_u.png =300x79)
+![ASUCLA Student Union Logo](/assets/images/asucla_student_u.png |width=300px)
 
 Built with :blue_heart::yellow_heart: by [Shawn Schwartz](https://shawntylerschwartz.com), UCLA Bruin :bear: 
 
