@@ -15,14 +15,14 @@ The main challenges and goals in completing this project were:
 1. Local Browser Compatibility
  > At the request of UCLA, the script must run in a browser, (i.e. Gooogle Chrome), that could be placed in a kiosk setup for a multi-projector display.
 
-2. No Server ##(neither localhost nor webhost)##
+2. No Server *(neither localhost nor webhost)*
  > The computer connected to the multi-projector setup will not be connected to the internet and will not be running any localhost servers. 
 
 3. Easily Editable
  > The people who will be updating the slides in the future wanted a system where images could be added seemlessly without having to edit code. 
 
 ## Architecture
-Although simple in theory, my main challenge was building this script to be both (somewhat) dynamic--for the sake of future, non-programmers, to be able to update the image slides, change their order, and add new slides. Since no local server would be implemented, I was challenged in reading-in from the directory housing the slide images to be able to essentially count how many were placed in there. As a simple solution to this "problem," I created a separate "parameters.js" file to house the timing and number of images parameters. This solved the problem of separating these #essential parameters# from the rest of the script running the multi-projector slider, preventing accidental "breaking" or "touching" of the main script: "ackerman.js".
+Although simple in theory, my main challenge was building this script to be both (somewhat) dynamic--for the sake of future, non-programmers, to be able to update the image slides, change their order, and add new slides. Since no local server would be implemented, I was challenged in reading-in from the directory housing the slide images to be able to essentially count how many were image "items" were placed in that directory. Yet, read-in functions that I am familiar with would have required a server (i.e., using PHP or node.js), which was not an option. Thus, as a simple solution to this "problem," I created a separate "parameters.js" file to house the **timing** and **number of images** *parameters*. This solved the problem of separating these *essential parameters* from the rest of the script running the multi-projector slider, preventing accidental "breaking" or "touching" of the main script: **"ackerman.js"**.
 
 ```javascript
 // parameters.js
@@ -34,7 +34,7 @@ Although simple in theory, my main challenge was building this script to be both
 	// *********************
 ```
 
-Then, once the parameters are set, "ackerman.js" will pre-load all of the slides before running. This is important since each slide is 3146px by 1200px in full resolution. Fortunately, since everything is hosted locally and no server is implemented, the preloading is quite "fast," (i.e., full resolution isn't an issue).
+Then, once the parameters are set, **"ackerman.js"** will pre-load all of the slides before running. This is important since each slide is 3146px by 1200px in full resolution. Fortunately, since everything is hosted locally and no server is implemented, the preloading is quite "fast," (i.e., full resolution isn't an issue).
 
 ```javascript
 // ackerman.js
@@ -42,7 +42,7 @@ Then, once the parameters are set, "ackerman.js" will pre-load all of the slides
 	// Preloading of Image Paths into Array
 	for(i = 1; i <= numberOfImages; ++i) {
 		paths.push("assets/images/" + i + ".jpg");
-		console.log(paths);
+		// console.log(paths);
 	}
 ```
 
